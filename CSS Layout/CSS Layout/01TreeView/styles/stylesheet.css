@@ -1,0 +1,32 @@
+﻿body, header, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul ul {
+    display: none;
+    color: grey;
+    font-size:0.9em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li:hover ul {
+    display: block;
+    border-collapse: collapse;
+    margin-bottom: 3px;
+    padding-left: 15px;
+}

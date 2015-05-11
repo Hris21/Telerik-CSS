@@ -1,0 +1,23 @@
+﻿body, header, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+div {
+    color: #0094ff;
+    font-family: Consolas;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 1.1em;
+}
+
+    div::first-line {
+        font-weight: 700;
+    }
+
+    div:first-letter {
+        font-size: 2.5em;
+        font-family: 'Edwardian Script ITC';
+    }

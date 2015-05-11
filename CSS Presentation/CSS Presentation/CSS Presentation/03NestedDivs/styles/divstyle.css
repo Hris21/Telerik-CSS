@@ -1,0 +1,12 @@
+﻿body, header, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+div {
+    background: #000;
+    border-radius: 60px;
+    border: 1px solid;
+    color:red;
+    padding-right:3%;
+}

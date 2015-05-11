@@ -1,0 +1,92 @@
+﻿body, header, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body, div, nav, a {
+    background-color: #1E3741;
+}
+
+#MainContent {
+    width: 740px;
+    height: 370px;
+    border: 1px solid #1E3741;
+    border-radius: 150px;
+}
+
+nav ul {
+    background-color: #1E3741;
+}
+
+ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: #1E3741;
+}
+
+    ul li a {
+        font-family: Arial;
+        color: #83A9B0;
+        font-size: 0.74rem;
+        font-weight: 600;
+        text-decoration: none;
+        background-color: #4B5F67;
+        display: inline-block;
+        height: 19px;
+        margin: -1px;
+        padding: 7px;
+        padding-left: 11px;
+        padding-right: 11px;
+        padding-top: 12px;
+        text-align: center;
+        float: left;
+        clear: both;
+    }
+
+        ul li a:visited {
+            text-decoration: underline;
+        }
+
+#current a {
+    background-color: transparent;
+    color: white;
+    margin-left: 7px;
+}
+
+#underLineMe {
+    text-decoration: underline;
+}
+
+.video iframe {
+    position: relative;
+    left: 300px;
+    width: 420px;
+    height: 290px;
+    bottom: 281px;
+    margin-bottom: -255px;
+}
+
+
+
+section a {
+    display: block;
+    width: 290px;
+    border-bottom: 1px solid #83A9B0;
+    font-weight: 600;
+    font-size: 0.85em;
+    color: #808080;
+    padding: 8px;
+    font-family: Arial;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#selectedNews {
+    color: white;
+    background-color: #00968C;
+}
+
+section a:last-child {
+    border-style: none;
+}

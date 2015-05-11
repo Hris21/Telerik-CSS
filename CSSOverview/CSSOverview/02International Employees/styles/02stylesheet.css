@@ -1,0 +1,40 @@
+﻿body, header, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+    table thead th {
+        color: rgba(255, 255, 255,0.9);
+        background-color: #50B306;
+        border-style: initial;
+        border: 1px solid #000000;
+        text-align: left;
+        font-weight: normal;
+        padding-left: 5px;
+    }
+
+tbody td {
+    padding: 3px 35px 4px 6px;
+    border-style: initial;
+    border-left: 1px solid #000000;
+}
+
+.faded-line {
+    background-color: #ECECD8;
+}
+
+tr:nth-last-child(1) {
+    border-style: initial;
+    border-bottom: 1px solid;
+}
+
+.flag {
+    vertical-align: -20%;
+    height: 12px;
+    width: 19px;
+}
